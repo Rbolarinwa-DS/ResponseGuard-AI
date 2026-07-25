@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Model files (when you start saving trained models)
+*.pkl
+*.joblib
+*.pth
+*.pt
+
+# Temporary prediction files (optional)
+predictions/*.csv
